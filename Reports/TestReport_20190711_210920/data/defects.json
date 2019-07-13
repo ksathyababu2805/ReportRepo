@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "34918d2faa3a559c",
+      "failure" : {
+        "message" : "IllegalArgumentException: Must provide a location for a move action.",
+        "stackTrace" : "java.lang.IllegalArgumentException: Must provide a location for a move action.\n\tat org.openqa.selenium.interactions.MoveMouseAction.<init>(MoveMouseAction.java:38)\n\tat org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:381)\n\tat com.aap.stepDefinition.AAPShoppingTest.i_select_add_vehicle_option(AAPShoppingTest.java:49)\n\tat ✽.When I select add vehicle option(com/aap/AAP_AddVehicle.feature:6)\n"
+      },
+      "testCases" : [ {
+        "uid" : "1296f4bd1ae265d9",
+        "name" : "When I select add vehicle option",
+        "title" : "When I select add vehicle option",
+        "time" : {
+          "start" : 1562897351173,
+          "stop" : 1562897351179,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

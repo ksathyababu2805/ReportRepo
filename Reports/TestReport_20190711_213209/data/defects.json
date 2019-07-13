@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "4c4444b872d9b448",
+      "failure" : {
+        "message" : "NoSuchElementException: null",
+        "stackTrace" : "java.util.NoSuchElementException\n\tat java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:721)\n\tat java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:742)\n\tat com.aap.stepDefinition.AAPShoppingTest.i_enter_the_vehicle_details(AAPShoppingTest.java:71)\n\tat ✽.Then I enter the vehicle details(com/aap/AAP_AddVehicle.feature:7)\n"
+      },
+      "testCases" : [ {
+        "uid" : "2b00be65f2572aff",
+        "name" : "Then I enter the vehicle details",
+        "title" : "Then I enter the vehicle details",
+        "time" : {
+          "start" : 1562898719696,
+          "stop" : 1562898719705,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "testCases" : [ {
+    "uid" : "de4e098834514e6a",
+    "name" : "Given I open the aap shopping home page",
+    "title" : "Given I open the aap shopping home page",
+    "time" : {
+      "start" : 1562900191058,
+      "stop" : 1562900191059,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c4a14052bf53b021",
+    "name" : "When I select add vehicle option",
+    "title" : "When I select add vehicle option",
+    "time" : {
+      "start" : 1562900192285,
+      "stop" : 1562900192285,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f65794ff360ede3a",
+    "name" : "Then I enter the vehicle details",
+    "title" : "Then I enter the vehicle details",
+    "time" : {
+      "start" : 1562900197325,
+      "stop" : 1562900197333,
+      "duration" : 8
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  }, {
+    "uid" : "5e28468514030ac9",
+    "name" : "Then I save the information",
+    "title" : "Then I save the information",
+    "time" : {
+      "start" : 1562900197334,
+      "stop" : 1562900197335,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PENDING"
+  } ]
+}

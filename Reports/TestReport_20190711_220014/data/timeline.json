@@ -1,0 +1,53 @@
+{
+  "hosts" : [ {
+    "title" : "Krishnendus-MBP.attlocal.net",
+    "threads" : [ {
+      "title" : "88222@Krishnendus-MBP.attlocal.net.main(1)",
+      "testCases" : [ {
+        "uid" : "a2d23937b3f110b1",
+        "name" : "Given I open the aap shopping home page",
+        "title" : "Given I open the aap shopping home page",
+        "time" : {
+          "start" : 1562900397025,
+          "stop" : 1562900397026,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ed1af450ac020cb6",
+        "name" : "When I select add vehicle option",
+        "title" : "When I select add vehicle option",
+        "time" : {
+          "start" : 1562900398382,
+          "stop" : 1562900398382,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "8ac3cadbf8a27e53",
+        "name" : "Then I enter the vehicle details",
+        "title" : "Then I enter the vehicle details",
+        "time" : {
+          "start" : 1562900403870,
+          "stop" : 1562900403880,
+          "duration" : 10
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "f113ffd4d82994e0",
+        "name" : "Then I save the information",
+        "title" : "Then I save the information",
+        "time" : {
+          "start" : 1562900403882,
+          "stop" : 1562900403882,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      } ]
+    } ]
+  } ]
+}

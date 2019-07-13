@@ -1,0 +1,47 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ {
+      "uid" : "d7f754098566c98f",
+      "failure" : {
+        "message" : "AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400",
+        "stackTrace" : "java.lang.AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat com.aap.stepDefinition.OrderService.i_validate_the_order_service_response_for_StatusCode(OrderService.java:83)\n\tat ✽.Then I validate the create order service response for StatusCode 200(com/aap/OrderService.feature:18)\n"
+      },
+      "testCases" : [ {
+        "uid" : "b5df4bfafbf85ad4",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1562031356425,
+          "stop" : 1562031356435,
+          "duration" : 10
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "23cfd2fc09ecf03b",
+      "failure" : {
+        "message" : "IllegalStateException: The driver executable does not exist: /Users/krishnendusathyababu/Documents/workspace/AAP_AutomationSuite/Drivers/chromedriver-3",
+        "stackTrace" : "java.lang.IllegalStateException: The driver executable does not exist: /Users/krishnendusathyababu/Documents/workspace/AAP_AutomationSuite/Drivers/chromedriver-3\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:518)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)\n\tat com.aap.stepDefinition.UITester.open_chrome_and_start_application(UITester.java:35)\n\tat ✽.Given Open chrome and start application(com/aap/UI.feature:5)\n"
+      },
+      "testCases" : [ {
+        "uid" : "a741480f97451be",
+        "name" : "Given Open chrome and start application",
+        "title" : "Given Open chrome and start application",
+        "time" : {
+          "start" : 1562031356534,
+          "stop" : 1562031356535,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

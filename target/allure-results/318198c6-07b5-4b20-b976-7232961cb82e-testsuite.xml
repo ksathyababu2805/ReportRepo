@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1562902426355" stop="1562902427155" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |</name>
+    <title>Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |</title>
+    <test-cases>
+        <test-case start="1562902426432" stop="1562902426434" status="passed">
+            <name>Given I build the request for the order service with "itemID,itemName" as "ID-984326,Alternator"</name>
+            <title>Given I build the request for the order service with "itemID,itemName" as "ID-984326,Alternator"</title>
+            <steps/>
+            <attachments>
+                <attachment title="Request" source="23ac8943-7c14-4634-a043-eb457992c081-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="Krishnendus-MBP.attlocal.net"/>
+                <label name="thread" value="89721@Krishnendus-MBP.attlocal.net.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1562902427147" stop="1562902427147" status="passed">
+            <name>And trigger the service</name>
+            <title>And trigger the service</title>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Krishnendus-MBP.attlocal.net"/>
+                <label name="thread" value="89721@Krishnendus-MBP.attlocal.net.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1562902427153" stop="1562902427153" status="passed">
+            <name>Then I validate the create order service response for StatusCode 200</name>
+            <title>Then I validate the create order service response for StatusCode 200</title>
+            <steps/>
+            <attachments>
+                <attachment title="Response" source="83d07fb0-f24c-4009-948c-05d5911f9122-attachment.html" type="text/html"/>
+            </attachments>
+            <labels>
+                <label name="host" value="Krishnendus-MBP.attlocal.net"/>
+                <label name="thread" value="89721@Krishnendus-MBP.attlocal.net.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="story" value="Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"/>
+        <label name="feature" value="Testing of Order Services"/>
+        <label name="framework" value="CucumberJVM"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "2651de0690f1cc25",
+      "failure" : {
+        "message" : "NullPointerException: null",
+        "stackTrace" : "java.lang.NullPointerException\n\tat com.aap.stepDefinition.AAPShoppingTest.i_open_the_aap_shopping_home_page(AAPShoppingTest.java:38)\n\tat ✽.Given I open the aap shopping home page(com/aap/AAP_AddVehicle.feature:5)\n"
+      },
+      "testCases" : [ {
+        "uid" : "ef42ee0c381e0ac6",
+        "name" : "Given I open the aap shopping home page",
+        "title" : "Given I open the aap shopping home page",
+        "time" : {
+          "start" : 1562896987138,
+          "stop" : 1562896987147,
+          "duration" : 9
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

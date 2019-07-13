@@ -1,0 +1,70 @@
+{
+  "features" : [ {
+    "title" : "AAP - Shopping Page Test",
+    "statistic" : {
+      "total" : 4,
+      "passed" : 2,
+      "pending" : 1,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "d2264e9652b6bccc",
+      "title" : "Test Add Vehicle option",
+      "statistic" : {
+        "total" : 4,
+        "passed" : 2,
+        "pending" : 1,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "4ea05c95e09d0896",
+        "name" : "Given I open the aap shopping home page",
+        "title" : "Given I open the aap shopping home page",
+        "time" : {
+          "start" : 1562899510661,
+          "stop" : 1562899510662,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "be4a711a7882724c",
+        "name" : "When I select add vehicle option",
+        "title" : "When I select add vehicle option",
+        "time" : {
+          "start" : 1562899511823,
+          "stop" : 1562899511823,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1e69e9e90fa3358e",
+        "name" : "Then I enter the vehicle details",
+        "title" : "Then I enter the vehicle details",
+        "time" : {
+          "start" : 1562899516862,
+          "stop" : 1562899516870,
+          "duration" : 8
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      }, {
+        "uid" : "20f04f3ae6d75348",
+        "name" : "Then I save the information",
+        "title" : "Then I save the information",
+        "time" : {
+          "start" : 1562899516872,
+          "stop" : 1562899516872,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PENDING"
+      } ]
+    } ]
+  } ]
+}

@@ -1,0 +1,36 @@
+{
+  "testCases" : [ {
+    "uid" : "135921adb7a6d21c",
+    "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-984326,Alternator\"",
+    "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-984326,Alternator\"",
+    "time" : {
+      "start" : 1562901271094,
+      "stop" : 1562901271095,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c06a48091b3fd412",
+    "name" : "And trigger the service",
+    "title" : "And trigger the service",
+    "time" : {
+      "start" : 1562901271733,
+      "stop" : 1562901271733,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "f9548ae205149388",
+    "name" : "Then I validate the create order service response for StatusCode 200",
+    "title" : "Then I validate the create order service response for StatusCode 200",
+    "time" : {
+      "start" : 1562901271735,
+      "stop" : 1562901271742,
+      "duration" : 7
+    },
+    "severity" : "NORMAL",
+    "status" : "BROKEN"
+  } ]
+}
