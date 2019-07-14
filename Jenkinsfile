@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('Sanity Test Execution'){   
 			steps {  
-				sh 'mvn clean test -Dcucumber.options="--tags @createOrderSanityCheck" -DEnv=qa'       
+				sh 'mvn clean test -Dcucumber.options="--tags @runUI" -DEnv=qa'       
 			}		
 	  	}
 	  	stage('Creating Report'){
