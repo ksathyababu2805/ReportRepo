@@ -2,17 +2,17 @@ pipeline {
 	agent any
 	stages {
 		stage('Sanity Test Execution'){   
-			step {  
+			steps {  
 				sh 'mvn clean test -Dcucumber.options="--tags @createOrderSanityCheck" -DEnv=qa'       
 			}		
 	  	}
 	  	stage('Creating Report'){
-	  		step {
+	  		steps {
 	            sh 'mvn site'               
 	  		}       
 	  	}
 	  	stage('Publish Report'){ 
-	  		step{
+	  		steps {
 	    		publishHTML (target: [
 		        reportDir: 'target/site/allure-maven-plugin',
 		        reportFiles: 'index.html',
