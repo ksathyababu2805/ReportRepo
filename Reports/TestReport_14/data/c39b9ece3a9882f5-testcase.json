@@ -1,0 +1,59 @@
+{
+  "uid" : "c39b9ece3a9882f5",
+  "name" : "Then I validate the create order service response for StatusCode 200",
+  "title" : "Then I validate the create order service response for StatusCode 200",
+  "time" : {
+    "start" : 1563470907937,
+    "stop" : 1563470907937,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "a3848ab51af100a",
+    "name" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "26ed3d7d-6dff-4ef2-9561-a51708bed3f9-attachment.html",
+    "type" : "text/html",
+    "size" : 803,
+    "uid" : "367b8e9d29a2acf7"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "23365@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

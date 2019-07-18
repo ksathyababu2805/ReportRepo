@@ -1,0 +1,59 @@
+{
+  "uid" : "9f28be86063fdc29",
+  "name" : "Then I validate the create order service response for StatusCode 200",
+  "title" : "Then I validate the create order service response for StatusCode 200",
+  "time" : {
+    "start" : 1563470908107,
+    "stop" : 1563470908107,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "5c81fe7ad7fd29ca",
+    "name" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "9e9243e0-e983-40a9-8284-3690d32fdfdb-attachment.html",
+    "type" : "text/html",
+    "size" : 803,
+    "uid" : "b6b0110ffa71d991"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "23365@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}
