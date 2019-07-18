@@ -1,0 +1,62 @@
+{
+  "uid" : "7befd3165a23db24",
+  "name" : "Then I validate the create order service response for StatusCode 200",
+  "title" : "Then I validate the create order service response for StatusCode 200",
+  "time" : {
+    "start" : 1563470506341,
+    "stop" : 1563470506347,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400",
+    "stackTrace" : "java.lang.AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat com.aap.stepDefinition.OrderService.i_validate_the_order_service_response_for_StatusCode(OrderService.java:85)\n\tat ✽.Then I validate the create order service response for StatusCode 200(com/aap/OrderService.feature:18)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "FAILED",
+  "suite" : {
+    "uid" : "6514f212a4a6716b",
+    "name" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "313ea389-364c-4bf4-9078-30fa5791bed6-attachment.html",
+    "type" : "text/html",
+    "size" : 7039,
+    "uid" : "f7cf6b3f4c5cb8d7"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "23027@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

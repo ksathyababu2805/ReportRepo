@@ -1,0 +1,59 @@
+{
+  "uid" : "736020a51bba151c",
+  "name" : "Then I validate the create order service response for StatusCode 400",
+  "title" : "Then I validate the create order service response for StatusCode 400",
+  "time" : {
+    "start" : 1563470506311,
+    "stop" : 1563470506311,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "447b76f5c1199092",
+    "name" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "d847c6ff-7863-4344-8c13-8ae26f86d060-attachment.html",
+    "type" : "text/html",
+    "size" : 852,
+    "uid" : "f482598dbebd4f93"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  }, {
+    "name" : "thread",
+    "value" : "23027@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

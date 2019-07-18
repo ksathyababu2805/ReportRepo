@@ -1,0 +1,59 @@
+{
+  "uid" : "31aa2003f58351b",
+  "name" : "When I search for \"Infosys\"",
+  "title" : "When I search for \"Infosys\"",
+  "time" : {
+    "start" : 1563470513293,
+    "stop" : 1563470513293,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2063865572550fe3",
+    "name" : "Test google search option",
+    "title" : "Test google search option"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Page screenshot",
+    "source" : "0e2ea30d-6bfc-4928-b8d3-096e2ed2dec6-attachment.png",
+    "type" : "image/png",
+    "size" : 586267,
+    "uid" : "cc9c8203aae89b02"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test google search option"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test google search option"
+  }, {
+    "name" : "feature",
+    "value" : "UI Testing - Google Search"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test google search option"
+  }, {
+    "name" : "thread",
+    "value" : "23027@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

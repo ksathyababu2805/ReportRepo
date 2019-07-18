@@ -1,0 +1,59 @@
+{
+  "uid" : "3666af128a75460c",
+  "name" : "Then I validate the create order service response for StatusCode 400",
+  "title" : "Then I validate the create order service response for StatusCode 400",
+  "time" : {
+    "start" : 1563470506228,
+    "stop" : 1563470506228,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9fcda0f560dce368",
+    "name" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "830134d8-9e7c-4ef7-b762-d72e48e2e2b4-attachment.html",
+    "type" : "text/html",
+    "size" : 852,
+    "uid" : "c29cf92bb66e61ee"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  }, {
+    "name" : "thread",
+    "value" : "23027@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

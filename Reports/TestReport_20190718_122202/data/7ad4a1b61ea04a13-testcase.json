@@ -1,0 +1,59 @@
+{
+  "uid" : "7ad4a1b61ea04a13",
+  "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34002,,500.0\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34002,,500.0\"",
+  "time" : {
+    "start" : 1563470506322,
+    "stop" : 1563470506322,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6514f212a4a6716b",
+    "name" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "b00a361d-2dc7-4638-b1f6-8cdd8853890e-attachment.html",
+    "type" : "text/html",
+    "size" : 660,
+    "uid" : "e769e14a62e46575"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "23027@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

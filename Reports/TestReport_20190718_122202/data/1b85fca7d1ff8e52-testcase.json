@@ -1,0 +1,59 @@
+{
+  "uid" : "1b85fca7d1ff8e52",
+  "name" : "Then I validate the create order service response for StatusCode 200",
+  "title" : "Then I validate the create order service response for StatusCode 200",
+  "time" : {
+    "start" : 1563470506042,
+    "stop" : 1563470506042,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "deaf6d5b41a4fad2",
+    "name" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |",
+    "title" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "b522f300-9595-4a1c-a80a-77d7bb5a9394-attachment.html",
+    "type" : "text/html",
+    "size" : 803,
+    "uid" : "5a0cdd317759eb6f"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  }, {
+    "name" : "story",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "23027@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}
