@@ -1,0 +1,59 @@
+{
+  "uid" : "be5bd88561357ef3",
+  "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-984326,Alternator\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-984326,Alternator\"",
+  "time" : {
+    "start" : 1563471441575,
+    "stop" : 1563471441576,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "ef4fc831f6b272c",
+    "name" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |",
+    "title" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "06928bd8-461b-4e94-a410-ab902795e199-attachment.html",
+    "type" : "text/html",
+    "size" : 671,
+    "uid" : "8b1a0fd778ff5fed"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "23674@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

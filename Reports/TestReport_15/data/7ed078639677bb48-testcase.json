@@ -1,0 +1,59 @@
+{
+  "uid" : "7ed078639677bb48",
+  "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-12545,BrakePad,200.0\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-12545,BrakePad,200.0\"",
+  "time" : {
+    "start" : 1563471442157,
+    "stop" : 1563471442157,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "56d6420178fbc0f4",
+    "name" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "7ebfd41a-ddd4-48eb-92d6-86921498914e-attachment.html",
+    "type" : "text/html",
+    "size" : 668,
+    "uid" : "593e4f4000b16e7d"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "23674@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

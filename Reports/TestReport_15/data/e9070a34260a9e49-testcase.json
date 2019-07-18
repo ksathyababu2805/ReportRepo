@@ -1,0 +1,56 @@
+{
+  "uid" : "e9070a34260a9e49",
+  "name" : "Given Open chrome and start application",
+  "title" : "Given Open chrome and start application",
+  "time" : {
+    "start" : 1563471444985,
+    "stop" : 1563471444985,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400",
+    "stackTrace" : "java.lang.AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400\n\tat org.junit.Assert.fail(Assert.java:88)\n\tat org.junit.Assert.assertTrue(Assert.java:41)\n\tat com.aap.stepDefinition.OrderService.i_validate_the_order_service_response_for_StatusCode(OrderService.java:85)\n\tat ✽.Then I validate the create order service response for StatusCode 200(com/aap/OrderService.feature:18)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "1486c63a364c496c",
+    "name" : "Test google search option",
+    "title" : "Test google search option"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test google search option"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test google search option"
+  }, {
+    "name" : "thread",
+    "value" : "23674@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "UI Testing - Google Search"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test google search option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}
