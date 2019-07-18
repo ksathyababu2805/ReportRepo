@@ -1,0 +1,59 @@
+{
+  "uid" : "ce051f2029e342b8",
+  "name" : "Then User should be able to click the search result",
+  "title" : "Then User should be able to click the search result",
+  "time" : {
+    "start" : 1563470025961,
+    "stop" : 1563470025961,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9c3173ec8dd5b03d",
+    "name" : "Test google search option",
+    "title" : "Test google search option"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Page screenshot",
+    "source" : "c094a348-9665-4406-8478-4329de10d329-attachment.png",
+    "type" : "image/png",
+    "size" : 3321533,
+    "uid" : "7b40c2e72819fb9b"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "22687@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Test google search option"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test google search option"
+  }, {
+    "name" : "feature",
+    "value" : "UI Testing - Google Search"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test google search option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

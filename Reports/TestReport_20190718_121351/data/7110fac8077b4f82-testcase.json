@@ -1,0 +1,59 @@
+{
+  "uid" : "7110fac8077b4f82",
+  "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34555,SparkPlug,\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34555,SparkPlug,\"",
+  "time" : {
+    "start" : 1563470013286,
+    "stop" : 1563470013286,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "6d6769169dc0a543",
+    "name" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "efae7ca2-79c7-4d58-a76d-f7a71c380b94-attachment.html",
+    "type" : "text/html",
+    "size" : 664,
+    "uid" : "9f0063f4edbb8e82"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "22687@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

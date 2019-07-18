@@ -1,0 +1,59 @@
+{
+  "uid" : "686ff7c0986f0109",
+  "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-34345,MotorOil\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-34345,MotorOil\"",
+  "time" : {
+    "start" : 1563470013427,
+    "stop" : 1563470013427,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "3c2cccc848b8d48f",
+    "name" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "f4c0078e-97c2-4680-b5e8-25c56ae73851-attachment.html",
+    "type" : "text/html",
+    "size" : 668,
+    "uid" : "9f6c3ecc6473a497"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "22687@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  } ],
+  "parameters" : [ ]
+}
