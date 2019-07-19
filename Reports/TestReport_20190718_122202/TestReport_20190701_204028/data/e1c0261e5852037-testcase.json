@@ -1,0 +1,53 @@
+{
+  "uid" : "e1c0261e5852037",
+  "name" : "And trigger the service",
+  "title" : "And trigger the service",
+  "time" : {
+    "start" : 1562031596640,
+    "stop" : 1562031596640,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "4959891c3cd47089",
+    "name" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-01,Shoes | 200 |",
+    "title" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-01,Shoes | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-01,Shoes | 200 |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-01,Shoes | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-01,Shoes | 200 |"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "36112@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,59 @@
+{
+  "uid" : "7e2a1360ffe33ad4",
+  "name" : "Given I open the aap shopping home page",
+  "title" : "Given I open the aap shopping home page",
+  "time" : {
+    "start" : 1562900733107,
+    "stop" : 1562900733109,
+    "duration" : 2
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2a0197dc96ebbe4d",
+    "name" : "Test Add Vehicle option",
+    "title" : "Test Add Vehicle option"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Page screenshot",
+    "source" : "a5adff18-39f3-40d6-8dda-1c3aa58fa094-attachment.png",
+    "type" : "image/png",
+    "size" : 1914858,
+    "uid" : "36b515e36a7cb24c"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AAP - Shopping Page Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "story",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "88531@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

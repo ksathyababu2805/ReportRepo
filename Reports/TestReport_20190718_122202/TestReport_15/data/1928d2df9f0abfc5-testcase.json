@@ -1,0 +1,59 @@
+{
+  "uid" : "1928d2df9f0abfc5",
+  "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34455,Wiper,356\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34455,Wiper,356\"",
+  "time" : {
+    "start" : 1563471442617,
+    "stop" : 1563471442618,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "48febd7c0abd1f47",
+    "name" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "375b6025-927e-4a53-a2ba-c47f6dc3d104-attachment.html",
+    "type" : "text/html",
+    "size" : 663,
+    "uid" : "3131e1d74b89a0b"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "23674@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

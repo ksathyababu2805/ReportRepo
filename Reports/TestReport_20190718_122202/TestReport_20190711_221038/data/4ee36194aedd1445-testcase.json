@@ -1,0 +1,62 @@
+{
+  "uid" : "4ee36194aedd1445",
+  "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-34345,MotorOil\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-34345,MotorOil\"",
+  "time" : {
+    "start" : 1562901025548,
+    "stop" : 1562901025548,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "NullPointerException: null",
+    "stackTrace" : "java.lang.NullPointerException\n\tat com.aap.stepDefinition.OrderService.i_validate_the_order_service_response_for_StatusCode(OrderService.java:79)\n\tat ✽.Then I validate the create order service response for StatusCode 200(com/aap/OrderService.feature:18)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "dd819664b21eb9cd",
+    "name" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "f512caf7-d4e8-44f2-85fc-370bdb7a43fb-attachment.html",
+    "type" : "text/html",
+    "size" : 668,
+    "uid" : "f83f768c8a82fb83"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "88924@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |"
+  } ],
+  "parameters" : [ ]
+}

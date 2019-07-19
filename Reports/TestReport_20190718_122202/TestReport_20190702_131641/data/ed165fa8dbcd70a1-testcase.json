@@ -1,0 +1,59 @@
+{
+  "uid" : "ed165fa8dbcd70a1",
+  "name" : "Then I validate the create order service response for StatusCode 200",
+  "title" : "Then I validate the create order service response for StatusCode 200",
+  "time" : {
+    "start" : 1562091390775,
+    "stop" : 1562091390775,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "9285135a157dd92c",
+    "name" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-455,Shirt | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-455,Shirt | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "01a5556a-d4de-42f7-a811-60f3d91be9e9-attachment.html",
+    "type" : "text/html",
+    "size" : 803,
+    "uid" : "e876c5d24a80d625"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-455,Shirt | 200 |"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-455,Shirt | 200 |"
+  }, {
+    "name" : "thread",
+    "value" : "44496@Krishnendus-MBP.attlocal.net.pool-1-thread-1(14)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-455,Shirt | 200 |"
+  } ],
+  "parameters" : [ ]
+}

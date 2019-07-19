@@ -1,0 +1,53 @@
+{
+  "uid" : "7f9d572bc9def5ff",
+  "name" : "And trigger the service",
+  "title" : "And trigger the service",
+  "time" : {
+    "start" : 1562071025639,
+    "stop" : 1562071025639,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "cc5cc56be676ffd1",
+    "name" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-345,Shirt,356 | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-345,Shirt,356 | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "39873@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-345,Shirt,356 | 400 |"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-345,Shirt,356 | 400 |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-345,Shirt,356 | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

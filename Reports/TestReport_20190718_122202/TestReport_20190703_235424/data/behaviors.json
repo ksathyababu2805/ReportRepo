@@ -1,0 +1,59 @@
+{
+  "features" : [ {
+    "title" : "UI Testing - Google Search",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "21ae881f2d3eba35",
+      "title" : "Test google search option",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "11c3c441863b41a3",
+        "name" : "Given Open chrome and start application",
+        "title" : "Given Open chrome and start application",
+        "time" : {
+          "start" : 1562216040536,
+          "stop" : 1562216040537,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1cc1be759256bbcb",
+        "name" : "When I search for \"Infosys\"",
+        "title" : "When I search for \"Infosys\"",
+        "time" : {
+          "start" : 1562216043995,
+          "stop" : 1562216043995,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "34d719f7ba96f8fe",
+        "name" : "Then User should be able to click the search result",
+        "title" : "Then User should be able to click the search result",
+        "time" : {
+          "start" : 1562216054892,
+          "stop" : 1562216054892,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

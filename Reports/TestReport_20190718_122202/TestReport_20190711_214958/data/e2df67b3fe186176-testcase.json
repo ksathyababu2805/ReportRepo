@@ -1,0 +1,56 @@
+{
+  "uid" : "e2df67b3fe186176",
+  "name" : "Then I save the information",
+  "title" : "Then I save the information",
+  "time" : {
+    "start" : 1562899787951,
+    "stop" : 1562899787952,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "Test ignored (without reason)!",
+    "stackTrace" : "There are no stack trace"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PENDING",
+  "suite" : {
+    "uid" : "258740dbb1c0f9d1",
+    "name" : "Test Add Vehicle option",
+    "title" : "Test Add Vehicle option"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AAP - Shopping Page Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "story",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "thread",
+    "value" : "87895@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

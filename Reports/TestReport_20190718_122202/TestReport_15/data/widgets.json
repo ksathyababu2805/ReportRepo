@@ -1,0 +1,168 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 30,
+        "passed" : 29,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1563471441575,
+        "stop" : 1563471454180,
+        "duration" : 12605
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "46b6513dbaa73d9b",
+        "message" : "AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 10,
+      "items" : [ {
+        "uid" : "ef4fc831f6b272c",
+        "title" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "56d6420178fbc0f4",
+        "title" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "540cf2e5ac943952",
+        "title" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "885082d73ff7fcc6",
+        "title" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-23441, | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "5319c297376a13",
+        "title" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "dc7e5ea4f66cfb6b",
+        "title" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-45215,OilFilter | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "577714cf8fe66cd6",
+        "title" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "48febd7c0abd1f47",
+        "title" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "65e81708e29ddab2",
+        "title" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "1486c63a364c496c",
+        "title" : "Test google search option",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "Testing of Order Services",
+        "statistic" : {
+          "total" : 27,
+          "passed" : 26,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "title" : "UI Testing - Google Search",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

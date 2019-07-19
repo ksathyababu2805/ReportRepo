@@ -1,0 +1,475 @@
+{
+  "features" : [ {
+    "title" : "Testing of Order Services",
+    "statistic" : {
+      "total" : 27,
+      "passed" : 26,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "2da100660b3ce133",
+      "title" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-23441, | 400 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "5df9d249f47be87",
+        "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-23441,\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-23441,\"",
+        "time" : {
+          "start" : 1563470735379,
+          "stop" : 1563470735379,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ddd87b36ca79432a",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735407,
+          "stop" : 1563470735407,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d89d98bf579471ba",
+        "name" : "Then I validate the create order service response for StatusCode 400",
+        "title" : "Then I validate the create order service response for StatusCode 400",
+        "time" : {
+          "start" : 1563470735409,
+          "stop" : 1563470735409,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "5ab52bd9882b10ed",
+      "title" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-12545,BrakePad,200.0 | 200 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "8956c18a6c71cad0",
+        "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-12545,BrakePad,200.0\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-12545,BrakePad,200.0\"",
+        "time" : {
+          "start" : 1563470735221,
+          "stop" : 1563470735221,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7a689fb0806f1fd8",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735237,
+          "stop" : 1563470735237,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "bb561c65c2376ada",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1563470735239,
+          "stop" : 1563470735239,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "6d56760e2c8ce297",
+      "title" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-984326,Alternator | 200 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b384948baba613b8",
+        "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-984326,Alternator\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-984326,Alternator\"",
+        "time" : {
+          "start" : 1563470734654,
+          "stop" : 1563470734655,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "dfdfe27086863ccb",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735135,
+          "stop" : 1563470735135,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "7d08dc8b894fe8d4",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1563470735139,
+          "stop" : 1563470735139,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "dfa50840448e5299",
+      "title" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-34345,MotorOil | 200 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "60d3e88e624ceaf5",
+        "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-34345,MotorOil\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-34345,MotorOil\"",
+        "time" : {
+          "start" : 1563470735485,
+          "stop" : 1563470735485,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9fb1c7165e28182e",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735508,
+          "stop" : 1563470735508,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e1514e2307c0a332",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1563470735509,
+          "stop" : 1563470735509,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "2def1110966f6ff6",
+      "title" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "cc6f0bc5557ed5",
+        "name" : "Given I build the request for the order service with \"itemID,itemName\" as \",SideMirror\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName\" as \",SideMirror\"",
+        "time" : {
+          "start" : 1563470735253,
+          "stop" : 1563470735253,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "96e4538a0ccb8862",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735367,
+          "stop" : 1563470735367,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "ff67130df9452591",
+        "name" : "Then I validate the create order service response for StatusCode 400",
+        "title" : "Then I validate the create order service response for StatusCode 400",
+        "time" : {
+          "start" : 1563470735369,
+          "stop" : 1563470735369,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "992c6ff68fdc63ee",
+      "title" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-34455,Wiper,356 | 400 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "42d56ca1454ce013",
+        "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34455,Wiper,356\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34455,Wiper,356\"",
+        "time" : {
+          "start" : 1563470735517,
+          "stop" : 1563470735518,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "fdf94c5ad3122d86",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735542,
+          "stop" : 1563470735542,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2a42f6ffb07e59a1",
+        "name" : "Then I validate the create order service response for StatusCode 400",
+        "title" : "Then I validate the create order service response for StatusCode 400",
+        "time" : {
+          "start" : 1563470735543,
+          "stop" : 1563470735544,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "faaf7ce2e4c769e6",
+      "title" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-34002,,500.0 | 200 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "622c53dcc04f0d06",
+        "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34002,,500.0\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34002,,500.0\"",
+        "time" : {
+          "start" : 1563470735553,
+          "stop" : 1563470735553,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9b0d19e85a82153",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735575,
+          "stop" : 1563470735575,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "48db55408d859978",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1563470735578,
+          "stop" : 1563470735583,
+          "duration" : 5
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "uid" : "d04374d8e261de87",
+      "title" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-45215,OilFilter | 200 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "c1c6e328db466ec6",
+        "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-45215,OilFilter\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-45215,OilFilter\"",
+        "time" : {
+          "start" : 1563470735452,
+          "stop" : 1563470735452,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c47607d61ff15a80",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735474,
+          "stop" : 1563470735474,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1b5b222d964ec8fb",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1563470735476,
+          "stop" : 1563470735476,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "efef43c2c85c7d3",
+      "title" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-34555,SparkPlug, | 400 |",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "41754f5a34306d3b",
+        "name" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34555,SparkPlug,\"",
+        "title" : "Given I build the request for the order service with \"itemID,itemName,itemPrice\" as \"ID-34555,SparkPlug,\"",
+        "time" : {
+          "start" : 1563470735418,
+          "stop" : 1563470735418,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2260209139a86b3a",
+        "name" : "And trigger the service",
+        "title" : "And trigger the service",
+        "time" : {
+          "start" : 1563470735442,
+          "stop" : 1563470735442,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a8e79214c4f4371d",
+        "name" : "Then I validate the create order service response for StatusCode 400",
+        "title" : "Then I validate the create order service response for StatusCode 400",
+        "time" : {
+          "start" : 1563470735443,
+          "stop" : 1563470735444,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  }, {
+    "title" : "UI Testing - Google Search",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 3,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "26eb71143d1c804e",
+      "title" : "Test google search option",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "cdbdfe4cfe127ced",
+        "name" : "Given Open chrome and start application",
+        "title" : "Given Open chrome and start application",
+        "time" : {
+          "start" : 1563470740531,
+          "stop" : 1563470740531,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "edfeab3fa8bac31a",
+        "name" : "When I search for \"Infosys\"",
+        "title" : "When I search for \"Infosys\"",
+        "time" : {
+          "start" : 1563470746395,
+          "stop" : 1563470746395,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9d068babdb2f3640",
+        "name" : "Then User should be able to click the search result",
+        "title" : "Then User should be able to click the search result",
+        "time" : {
+          "start" : 1563470750930,
+          "stop" : 1563470750930,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

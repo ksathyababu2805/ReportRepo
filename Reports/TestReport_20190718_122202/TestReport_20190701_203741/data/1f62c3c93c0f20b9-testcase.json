@@ -1,0 +1,59 @@
+{
+  "uid" : "1f62c3c93c0f20b9",
+  "name" : "Then I validate the create order service response for StatusCode 200",
+  "title" : "Then I validate the create order service response for StatusCode 200",
+  "time" : {
+    "start" : 1562031426851,
+    "stop" : 1562031426851,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "2bee70dd04232b12",
+    "name" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-01,Shoes,200.0 | 200 |",
+    "title" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-01,Shoes,200.0 | 200 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Response",
+    "source" : "58793f3e-d199-43c3-83d3-3b7fa188872d-attachment.html",
+    "type" : "text/html",
+    "size" : 803,
+    "uid" : "f4d86629844c7689"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-01,Shoes,200.0 | 200 |"
+  }, {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-01,Shoes,200.0 | 200 |"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-01,Shoes,200.0 | 200 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "35971@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

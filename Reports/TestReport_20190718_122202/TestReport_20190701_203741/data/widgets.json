@@ -1,0 +1,168 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 30,
+        "passed" : 29,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1562031426442,
+        "stop" : 1562031451151,
+        "duration" : 24709
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "85d723b07d9859c4",
+        "message" : "AssertionError: The service is not giving the expected response code. Response code expected 200, But actual 400",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 10,
+      "items" : [ {
+        "uid" : "11118095437ad6c1",
+        "title" : "Sanity Test cases for order Service - Create order | TestCase 1 | itemID,itemName | ID-01,Shoes | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "2bee70dd04232b12",
+        "title" : "Test cases for order Service - Create order | TestCase 1 | itemID,itemName,itemPrice | ID-01,Shoes,200.0 | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "4c720c146e4ec9e7",
+        "title" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,Bag | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "e12fb21777511a5b",
+        "title" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-001, | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "b6222538dbc39701",
+        "title" : "Test cases for order Service - Create order | TestCase 4 | itemID,itemName,itemPrice | ID-345,Shirt, | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "468c7aac3f5711b9",
+        "title" : "Test cases for order Service - Create order | TestCase 5 | itemID,itemName | ID-455,Shirt | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "53717e1d71e0eac3",
+        "title" : "Test cases for order Service - Create order | TestCase 6 | itemID,itemName | ID-345,Shirtl | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "daa486b8d7eac10e",
+        "title" : "Test cases for order Service - Create order | TestCase 7 | itemID,itemName,itemPrice | ID-345,Shirt,356 | 400 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "d4525298eafde98f",
+        "title" : "Test cases for order Service - Create order | TestCase 8 | itemID,itemName,itemPrice | ID-345,,500.0 | 200 |",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "5517cdfda51190ed",
+        "title" : "Test google search option",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "title" : "Testing of Order Services",
+        "statistic" : {
+          "total" : 27,
+          "passed" : 26,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      }, {
+        "title" : "UI Testing - Google Search",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 3,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

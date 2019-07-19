@@ -1,0 +1,59 @@
+{
+  "uid" : "9be94c13c4f66742",
+  "name" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-001,\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName\" as \"ID-001,\"",
+  "time" : {
+    "start" : 1562070981210,
+    "stop" : 1562070981210,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "1e49d8535151b578",
+    "name" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-001, | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-001, | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "b9582fcc-c974-4a54-9a8c-8513f0b9145f-attachment.html",
+    "type" : "text/html",
+    "size" : 658,
+    "uid" : "bb2ef36c8c0a90c8"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-001, | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-001, | 400 |"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 3 | itemID,itemName | ID-001, | 400 |"
+  }, {
+    "name" : "thread",
+    "value" : "39792@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

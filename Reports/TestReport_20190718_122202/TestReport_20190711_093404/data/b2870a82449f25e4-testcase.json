@@ -1,0 +1,53 @@
+{
+  "uid" : "b2870a82449f25e4",
+  "name" : "And trigger the service",
+  "title" : "And trigger the service",
+  "time" : {
+    "start" : 1562855633625,
+    "stop" : 1562855633626,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "bace5f378d7e9cf7",
+    "name" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,Bag | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,Bag | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,Bag | 400 |"
+  }, {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,Bag | 400 |"
+  }, {
+    "name" : "thread",
+    "value" : "77439@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,Bag | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

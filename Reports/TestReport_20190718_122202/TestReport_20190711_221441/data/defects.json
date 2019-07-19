@@ -1,0 +1,29 @@
+{
+  "defectsList" : [ {
+    "title" : "Product defects",
+    "status" : "FAILED",
+    "defects" : [ ]
+  }, {
+    "title" : "Test defects",
+    "status" : "BROKEN",
+    "defects" : [ {
+      "uid" : "13be0fe43b2dfb6f",
+      "failure" : {
+        "message" : "NullPointerException: null",
+        "stackTrace" : "java.lang.NullPointerException\n\tat com.aap.stepDefinition.OrderService.i_validate_the_order_service_response_for_StatusCode(OrderService.java:79)\n\tat ✽.Then I validate the create order service response for StatusCode 200(com/aap/OrderService.feature:8)\n"
+      },
+      "testCases" : [ {
+        "uid" : "f9548ae205149388",
+        "name" : "Then I validate the create order service response for StatusCode 200",
+        "title" : "Then I validate the create order service response for StatusCode 200",
+        "time" : {
+          "start" : 1562901271735,
+          "stop" : 1562901271742,
+          "duration" : 7
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}

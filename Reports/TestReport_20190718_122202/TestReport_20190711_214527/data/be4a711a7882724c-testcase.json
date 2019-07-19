@@ -1,0 +1,59 @@
+{
+  "uid" : "be4a711a7882724c",
+  "name" : "When I select add vehicle option",
+  "title" : "When I select add vehicle option",
+  "time" : {
+    "start" : 1562899511823,
+    "stop" : 1562899511823,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "67993f667c6fec4",
+    "name" : "Test Add Vehicle option",
+    "title" : "Test Add Vehicle option"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Page screenshot",
+    "source" : "b15dccb0-bce7-4049-b65e-91e570bd40ce-attachment.png",
+    "type" : "image/png",
+    "size" : 1196103,
+    "uid" : "ee62432496299303"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "87757@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "AAP - Shopping Page Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "story",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "2b00be65f2572aff",
+  "name" : "Then I enter the vehicle details",
+  "title" : "Then I enter the vehicle details",
+  "time" : {
+    "start" : 1562898719696,
+    "stop" : 1562898719705,
+    "duration" : 9
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: null",
+    "stackTrace" : "java.util.NoSuchElementException\n\tat java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:721)\n\tat java.util.LinkedHashMap$LinkedKeyIterator.next(LinkedHashMap.java:742)\n\tat com.aap.stepDefinition.AAPShoppingTest.i_enter_the_vehicle_details(AAPShoppingTest.java:71)\n\tat ✽.Then I enter the vehicle details(com/aap/AAP_AddVehicle.feature:7)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "a5749dc16baaf029",
+    "name" : "Test Add Vehicle option",
+    "title" : "Test Add Vehicle option"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AAP - Shopping Page Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "story",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "thread",
+    "value" : "87187@Krishnendus-MBP.attlocal.net.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  } ],
+  "parameters" : [ ]
+}

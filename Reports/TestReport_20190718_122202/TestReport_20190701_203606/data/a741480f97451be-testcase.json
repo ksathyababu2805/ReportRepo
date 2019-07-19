@@ -1,0 +1,56 @@
+{
+  "uid" : "a741480f97451be",
+  "name" : "Given Open chrome and start application",
+  "title" : "Given Open chrome and start application",
+  "time" : {
+    "start" : 1562031356534,
+    "stop" : 1562031356535,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "IllegalStateException: The driver executable does not exist: /Users/krishnendusathyababu/Documents/workspace/AAP_AutomationSuite/Drivers/chromedriver-3",
+    "stackTrace" : "java.lang.IllegalStateException: The driver executable does not exist: /Users/krishnendusathyababu/Documents/workspace/AAP_AutomationSuite/Drivers/chromedriver-3\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:518)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:330)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)\n\tat com.aap.stepDefinition.UITester.open_chrome_and_start_application(UITester.java:35)\n\tat ✽.Given Open chrome and start application(com/aap/UI.feature:5)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "2b23b410086e62c5",
+    "name" : "Test google search option",
+    "title" : "Test google search option"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test google search option"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test google search option"
+  }, {
+    "name" : "feature",
+    "value" : "UI Testing - Google Search"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test google search option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "35898@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

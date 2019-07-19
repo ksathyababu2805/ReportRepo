@@ -1,0 +1,56 @@
+{
+  "uid" : "914e92dfcabe5fb1",
+  "name" : "When I select add vehicle option",
+  "title" : "When I select add vehicle option",
+  "time" : {
+    "start" : 1562897084133,
+    "stop" : 1562897084139,
+    "duration" : 6
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "IllegalArgumentException: Must provide a location for a move action.",
+    "stackTrace" : "java.lang.IllegalArgumentException: Must provide a location for a move action.\n\tat org.openqa.selenium.interactions.MoveMouseAction.<init>(MoveMouseAction.java:38)\n\tat org.openqa.selenium.interactions.Actions.moveToElement(Actions.java:381)\n\tat com.aap.stepDefinition.AAPShoppingTest.i_select_add_vehicle_option(AAPShoppingTest.java:52)\n\tat ✽.When I select add vehicle option(com/aap/AAP_AddVehicle.feature:6)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "dfb6e6b9b92d2d8c",
+    "name" : "Test Add Vehicle option",
+    "title" : "Test Add Vehicle option"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "AAP - Shopping Page Test"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "story",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test Add Vehicle option"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "thread",
+    "value" : "86339@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

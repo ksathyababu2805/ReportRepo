@@ -1,0 +1,71 @@
+{
+  "time" : {
+    "start" : 1562897351161,
+    "stop" : 1562897351181,
+    "duration" : 20
+  },
+  "testSuites" : [ {
+    "uid" : "2d273c13b511b61",
+    "name" : "Test Add Vehicle option",
+    "title" : "Test Add Vehicle option",
+    "time" : {
+      "start" : 1562897351161,
+      "stop" : 1562897351181,
+      "duration" : 20
+    },
+    "statistic" : {
+      "total" : 4,
+      "passed" : 1,
+      "pending" : 2,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "678f6d1e8cfd305d",
+      "name" : "Given I open the aap shopping home page",
+      "title" : "Given I open the aap shopping home page",
+      "time" : {
+        "start" : 1562897351161,
+        "stop" : 1562897351163,
+        "duration" : 2
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "1296f4bd1ae265d9",
+      "name" : "When I select add vehicle option",
+      "title" : "When I select add vehicle option",
+      "time" : {
+        "start" : 1562897351173,
+        "stop" : 1562897351179,
+        "duration" : 6
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "d126086ecd15d2ce",
+      "name" : "Then I enter the vehicle details",
+      "title" : "Then I enter the vehicle details",
+      "time" : {
+        "start" : 1562897351180,
+        "stop" : 1562897351181,
+        "duration" : 1
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    }, {
+      "uid" : "4ee6d3eecc1f7de8",
+      "name" : "Then I save the information",
+      "title" : "Then I save the information",
+      "time" : {
+        "start" : 1562897351181,
+        "stop" : 1562897351181,
+        "duration" : 0
+      },
+      "severity" : "NORMAL",
+      "status" : "PENDING"
+    } ]
+  } ]
+}

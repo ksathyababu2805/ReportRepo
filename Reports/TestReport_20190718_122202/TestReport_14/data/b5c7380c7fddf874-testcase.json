@@ -1,0 +1,59 @@
+{
+  "uid" : "b5c7380c7fddf874",
+  "name" : "Given I build the request for the order service with \"itemID,itemName\" as \",SideMirror\"",
+  "title" : "Given I build the request for the order service with \"itemID,itemName\" as \",SideMirror\"",
+  "time" : {
+    "start" : 1563470907950,
+    "stop" : 1563470907950,
+    "duration" : 0
+  },
+  "summary" : {
+    "attachments" : 1,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "406d79f578a3ad40",
+    "name" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |",
+    "title" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |"
+  },
+  "steps" : [ ],
+  "attachments" : [ {
+    "title" : "Request",
+    "source" : "155963f2-d92d-42a4-8f8b-0a94cb76123d-attachment.html",
+    "type" : "text/html",
+    "size" : 662,
+    "uid" : "1a57890cd391f2ec"
+  } ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Testing of Order Services"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "Krishnendus-MBP.attlocal.net"
+  }, {
+    "name" : "suite-title",
+    "value" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |"
+  }, {
+    "name" : "story",
+    "value" : "Test cases for order Service - Create order | TestCase 2 | itemID,itemName | ,SideMirror | 400 |"
+  }, {
+    "name" : "thread",
+    "value" : "23365@Krishnendus-MBP.attlocal.net.main(1)"
+  } ],
+  "parameters" : [ ]
+}

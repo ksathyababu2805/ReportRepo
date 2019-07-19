@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Response</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" language="javascript">
+
+function addElements(){
+	
+	document.getElementById("raiseDefect").className = "button disabled";
+	
+	var defectTitleLabel = document.createElement("input");		
+	defectTitleLabel.setAttribute("type", "text");
+	defectTitleLabel.setAttribute("value", "Defect Title");
+	defectTitleLabel.setAttribute("name", "defectTitleLabel");
+	defectTitleLabel.style.color = "blue";
+	defectTitleLabel.style.width = '70px';
+	defectTitleLabel.style.height = '20px';
+	defectTitleLabel.style.fontWeight = 'bold';
+	defectTitleLabel.readOnly = "true";
+		
+	var refLabel = document.createElement("input");		
+	refLabel.setAttribute("type", "text");
+	refLabel.setAttribute("value", "Report Link");
+	refLabel.setAttribute("name", "refLabel"); 
+	refLabel.style.color = "blue";
+	refLabel.style.width = '70px';
+	refLabel.style.height = '20px';
+	refLabel.style.fontWeight = 'bold';
+	refLabel.readOnly = "true";
+	
+	var defectTitle = document.createElement("input");		
+	defectTitle.setAttribute("type", "Textbox");
+	defectTitle.setAttribute("value",document.getElementById("scenarioName").value +" - is not working");
+	defectTitle.setAttribute("name", "Title");
+	defectTitle.setAttribute("id", "title");
+	defectTitle.style['width'] = '350px';
+	defectTitle.style.height = '20px';
+	
+	var refLink = document.createElement("input");	
+	refLink.setAttribute("type", "Textbox");
+	var parentLink = parent.document.URL;
+	var reportLink = parentLink.split('/');
+	reportLink.pop();	
+	refLink.setAttribute("value", reportLink.join('/'));
+	refLink.setAttribute("name", "ReportLink");
+	refLink.setAttribute("id", "description");
+	refLink.style['width'] = '350px';
+	refLink.style.height = '20px';
+	refLink.readOnly = "true";
+	
+	var submit = document.createElement("input");	
+	submit.setAttribute("type", "Button");
+	submit.setAttribute("value", "Submit");
+	submit.setAttribute("name", "submit");
+	submit.className = "button button2";
+	submit.setAttribute( "onClick", "javascript: raiseDefect(document.getElementById('title').value,document.getElementById('description').value);" );
+	
+	var cancel = document.createElement("input");	
+	cancel.setAttribute("type", "Button");
+	cancel.setAttribute("value", "Cancel");
+	cancel.setAttribute("name", "cancel");
+	cancel.className = "button button2";
+	cancel.setAttribute( "onClick", "javascript: cancelCall();" );
+		
+	var foo = document.getElementById("div");
+	foo.appendChild(defectTitleLabel);
+	foo.appendChild(defectTitle);
+	foo.appendChild(document.createElement("br"));
+	foo.appendChild(refLabel);
+	foo.appendChild(refLink); 
+	foo.appendChild(document.createElement("br"));
+	foo.appendChild(submit);
+	foo.appendChild(cancel);
+	
+}
+function cancelCall()
+{
+	var myNode = document.getElementById("div");
+	while (myNode.firstChild) {
+	    myNode.removeChild(myNode.firstChild);
+	}
+    document.getElementById("raiseDefect").className = "button button1";
+    document.getElementById('raiseDefect').removeAttribute("disabled");
+}
+
+function raiseDefect(title,description)
+{
+	var requestJson = "{\"defectTitle\":\""+title+"\",\"defectDescription\":\""+description+"\"}";
+    var URL = "http://localhost:8080/CreateJIRA/api/services/CreateDefect"; 
+    var xmlhttp = new XMLHttpRequest();
+    xmlhttp.open('POST', URL);
+    xmlhttp.setRequestHeader('Content-Type', 'application/json');
+    xmlhttp.setRequestHeader('Access-Control-Allow-Origin', '*');
+    
+    //xmlhttp.onload = requestComplete;
+   // xmlhttp.send();
+    xmlhttp.send(requestJson);
+    xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState === 4) {
+          // alert("Defect ID :"+xmlhttp.responseText);
+        	if (window.confirm('Defect ID: '+xmlhttp.responseText+'\n\nClick "OK" to view the Defect. Else click "Cancel"')) 
+        	{
+        	window.location.href='http://infosysjira/browse/'+xmlhttp.responseText;
+        	};
+        }
+    };
+    //var data=xmlhttp.responseText;
+    //var jsonResponse = JSON.parse(data);
+    //alert("Defect raised successfully!! and DefectID is: "+ data.id);
+    document.getElementById("raiseDefect").innerHTML="Defect Raised!!";
+    var element = document.getElementById("div");
+    element.style.display= "none"; 
+    
+  /*
+   var requestJson = '{\"defectTitle\":\"Test Failed\",\"defectDescription\":\"Test Failed\"}';
+    $.ajax({
+        type: 'POST',
+        url: 'http://localhost:8080/CreateJIRA/api/services/CreateDefect',
+        data: requestJson,
+        //dataType: "json",
+        contentType: 'application/json',       
+        crossDomain: true,
+        
+        //beforeSend: function (xhr) {
+        //},
+        success: function (result) {
+           var token = result;
+           alert("Went Fine");
+        },
+        //complete: function (jqXHR, textStatus) {
+        //},
+        error: function (req, status, error) {
+        	alert("Did not went Fine");
+        	console.log(error);
+        }
+    });
+    document.getElementById("raiseDefect").innerHTML="Defect Raised!!";
+    var element = document.getElementById("div");
+    element.style.display= "none";*/
+}
+</script>
+<style>
+.button {
+    background-color:#008CBA; /* Green #4CAF50 */
+    border: none;
+    color: white;
+    padding: 1px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: #008CBA; 
+    color: white; 
+    border: 2px solid #008CBA;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+.button2 {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+</style>
+</head>
+<body>
+
+Date: Thu, 18 Jul 2019 10:28:28 PDT <br/>
+<input name="scenarioName" id="scenarioName" display=none type="hidden" value="$scenarioName"> <br/>
+<button class="button button1" name="raiseDefect" id="raiseDefect" type="submit" onclick="javascript:addElements();this.disabled=true;">Raise Defect</button>
+<div id='div'>
+</div>
+<TABLE BORDER="2" cellpadding="5" cellspacing="0"><TR><TD width="350">HTTP Response Code</TD><TD>400</TD><br></TR><TR><TD width="350">CustomHeader</TD><TD>FromSVTool</TD><br></TR><TR><TD width="350">Content-Type</TD><TD>application/json;charset=UTF-8</TD><br></TR><TR><TD width="350">Content-Length</TD><TD>48</TD><br></TR><TR><TD width="350">Date</TD><TD>Thu, 18 Jul 2019 17:28:27 GMT</TD><br></TR><TR><TD width="350">Connection</TD><TD>close</TD><br></TR><TR><TD width="350">Response body</TD><TD>{"ErrorMessage":"The field itemName is invalid"}</TD><br></TR></TABLE>
+<br>
+</body>
+</html>

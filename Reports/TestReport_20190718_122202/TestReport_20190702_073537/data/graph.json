@@ -1,0 +1,36 @@
+{
+  "testCases" : [ {
+    "uid" : "4bc02260b634d742",
+    "name" : "Given Open chrome and start application",
+    "title" : "Given Open chrome and start application",
+    "time" : {
+      "start" : 1562070914345,
+      "stop" : 1562070914348,
+      "duration" : 3
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "aff9e89b1d45212",
+    "name" : "When I search for \"Infosys\"",
+    "title" : "When I search for \"Infosys\"",
+    "time" : {
+      "start" : 1562070916766,
+      "stop" : 1562070916767,
+      "duration" : 1
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "698da30fe0e39de3",
+    "name" : "Then User should be able to click the search result",
+    "title" : "Then User should be able to click the search result",
+    "time" : {
+      "start" : 1562070927426,
+      "stop" : 1562070927426,
+      "duration" : 0
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

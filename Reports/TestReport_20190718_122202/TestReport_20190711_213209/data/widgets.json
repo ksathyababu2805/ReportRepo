@@ -1,0 +1,59 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 4,
+        "passed" : 2,
+        "pending" : 1,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1562898697140,
+        "stop" : 1562898719707,
+        "duration" : 22567
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "4c4444b872d9b448",
+        "message" : "NoSuchElementException: null",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "a5749dc16baaf029",
+        "title" : "Test Add Vehicle option",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 2,
+          "pending" : 1,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "AAP - Shopping Page Test",
+        "statistic" : {
+          "total" : 4,
+          "passed" : 2,
+          "pending" : 1,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}
